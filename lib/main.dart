@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lecademy/src/pages/test_page.dart';
 import 'package:lecademy/src/theme/theme.dart';
 
 import 'src/pages/home_page.dart';
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: AppTheme.lightTheme,
+      // theme: AppTheme.lightTheme,
       home: HomePage()
     );
   }

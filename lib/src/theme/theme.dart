@@ -6,6 +6,7 @@ class AppTheme {
   static ThemeData lightTheme = ThemeData(
     primarySwatch: Colors.blue,
     primaryColor: LightColor.purple,
+    backgroundColor: Colors.white,
     // accentColor: LightColor.lightblack,
     // primaryColorDark: LightColor.darker,
     primaryColorLight: LightColor.brighter,
